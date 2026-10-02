@@ -19,3 +19,5 @@ uvx --from git+https://github.com/Lokesh7025/observal-sync-demo-mcp observal-syn
 ## Versions
 
 Published to Observal automatically on every push to main and every GitHub release.
+
+Pages in Observal refresh on their own when a new version syncs.
