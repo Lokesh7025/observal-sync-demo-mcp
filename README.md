@@ -14,3 +14,4 @@ uvx --from git+https://github.com/Lokesh7025/observal-sync-demo-mcp observal-syn
 | Variable | Description |
 | --- | --- |
 | `DEMO_GREETING` | Greeting prefix used by the `greet` tool |
+| `DEMO_SIGNOFF` | Farewell prefix used by the `farewell` tool |

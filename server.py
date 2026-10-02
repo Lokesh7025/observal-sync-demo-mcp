@@ -7,12 +7,19 @@ from fastmcp import FastMCP
 mcp = FastMCP("observal-sync-demo", instructions="Small demo tools for testing registry sync.")
 
 GREETING = os.environ.get("DEMO_GREETING", "Hello")
+SIGNOFF = os.environ.get("DEMO_SIGNOFF", "Goodbye")
 
 
 @mcp.tool()
 def greet(name: str) -> str:
     """Return a greeting for the given name, using DEMO_GREETING if set."""
     return f"{GREETING}, {name}!"
+
+
+@mcp.tool()
+def farewell(name: str) -> str:
+    """Return a farewell for the given name, using DEMO_SIGNOFF if set."""
+    return f"{SIGNOFF}, {name}!"
 
 
 def main() -> None:
