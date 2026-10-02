@@ -3,7 +3,7 @@
 import os
 
 from fastmcp import FastMCP
-
+#This is a test line added for a new version
 mcp = FastMCP("observal-sync-demo", instructions="Small demo tools for testing registry sync.")
 
 GREETING = os.environ.get("DEMO_GREETING", "Hello")
