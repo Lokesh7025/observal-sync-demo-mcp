@@ -1,0 +1,9 @@
+[project]
+name = "observal-sync-demo-mcp"
+version = "0.1.0"
+description = "Demo MCP server for testing Observal's GitHub webhook sync"
+requires-python = ">=3.10"
+dependencies = ["fastmcp>=2.0"]
+
+[project.scripts]
+observal-sync-demo-mcp = "server:main"
