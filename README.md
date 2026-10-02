@@ -15,3 +15,7 @@ uvx --from git+https://github.com/Lokesh7025/observal-sync-demo-mcp observal-syn
 | --- | --- |
 | `DEMO_GREETING` | Greeting prefix used by the `greet` tool |
 | `DEMO_SIGNOFF` | Farewell prefix used by the `farewell` tool |
+
+## Versions
+
+Published to Observal automatically on every push to main and every GitHub release.
